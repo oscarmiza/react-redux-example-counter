@@ -42,8 +42,8 @@ class Counter extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        countRedux: state.count,
-        countRedux2: state.count2
+        countRedux: state.counter_1,
+        countRedux2: state.counter_2
     }
 }
 function mapDispatchToProps(dispatch) {

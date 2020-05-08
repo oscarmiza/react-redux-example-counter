@@ -1,25 +1,30 @@
+
+// ACTIONS COUNTER 1
+
 export function sumar() {
     return {
-        type:'SUMAR'
+        type: 'COUNTER1_SUMAR'
     }
-    
-}
-export function sumar2() {
-    return {
-        type:'SUMAR_COUNTER2'
-    }
-    
+
 }
 export function restar() {
     return {
-        type:'RESTAR'
+        type: 'COUNTER1_RESTAR'
     }
-    
+
+}
+
+// ACTIONS COUNTER 2
+export function sumar2() {
+    return {
+        type: 'COUNTER2_SUMAR'
+    }
+
 }
 export function restar2() {
     return {
-        type:'RESTAR_COUNTER2'
+        type: 'COUNTER2_RESTAR'
     }
-    
+
 }
 
